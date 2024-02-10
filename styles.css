@@ -5,11 +5,26 @@
     text-align: center;
 }
 
-.container {
+div.container {
     text-align: center;
+    background-color: aquamarine;
+    width: 200px;
+    margin: 0 auto;
 }
 
-.main-ul {
+ul.main-ul {
     display: inline-block;
     text-align: left;
+}
+
+.descrip {
+    background-color: aquamarine;
+}
+
+.ingred {
+    background-color: beige;
+}
+
+.steps {
+    background-color: darksalmon;
 }
