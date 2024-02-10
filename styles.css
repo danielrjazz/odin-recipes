@@ -1,0 +1,15 @@
+/* styles */
+
+.titles {
+    background-color: lightcoral;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+.main-ul {
+    display: inline-block;
+    text-align: left;
+}
