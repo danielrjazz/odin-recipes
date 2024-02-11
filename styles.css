@@ -1,30 +1,35 @@
 /* styles */
+* {
+    margin: 0;
+}
+
+li {
+    background-color: #e3f4ff;
+    padding: 8px;
+    margin: auto;
+}
+
+body {
+    background-color: #eee;
+    padding: 8px;
+}
+
+.container {
+    background-color: #fff;
+    width: 400px;
+    margin: 0 auto;
+    padding: 8px;
+}
 
 .titles {
-    background-color: lightcoral;
+    background-color: #e3f4ff;
     text-align: center;
+    padding: 2px;
+    margin-bottom: 8px;
 }
 
-div.container {
-    text-align: center;
-    background-color: aquamarine;
-    width: 200px;
-    margin: 0 auto;
-}
-
-ul.main-ul {
-    display: inline-block;
-    text-align: left;
-}
-
-.descrip {
-    background-color: aquamarine;
-}
-
-.ingred {
-    background-color: beige;
-}
-
-.steps {
-    background-color: darksalmon;
+.main-ul {
+    list-style: none;
+    display: flex;
+    padding: 0px 4px;
 }
